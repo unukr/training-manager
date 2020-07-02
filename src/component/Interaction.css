@@ -1,0 +1,48 @@
+.interaction {
+  width: 100%;
+  height: 295px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.interaction__exercise {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.exercise__name {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(140, 0, 0);
+  font-weight: bold;
+}
+
+.interaction__num-keypad {
+  width: calc(75% - 10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.num-keypad__row {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.row__num {
+  width: calc((100% - 10px) / 3);
+  height: 70px;
+  background-color: darkgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-start-end-radius: 10px;
+}

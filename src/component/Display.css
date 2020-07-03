@@ -9,7 +9,7 @@
   padding: 10px;
   overflow: auto;
   margin-bottom: 10px;
-  box-shadow: 3px 3px 10px 0px black;
+  box-shadow: 1px 1px 3px black;
 }
 
 .display__title {
@@ -44,7 +44,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 1px 1px 1px black;
+  box-shadow: 1px 1px 3px black;
 }
 
 .element-1 {

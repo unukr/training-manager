@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
-import ManageTime from "./component/ManageTime";
+import TrainingManager from "./component/TrainingManager";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ManageTime />
+    <TrainingManager />
   </React.StrictMode>,
   document.getElementById("root")
 );

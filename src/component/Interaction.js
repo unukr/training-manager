@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import "./Interaction.css";
-import { useManageTimeContext } from "./ManageTime";
+import classNames from "classnames";
+import { useManageTimeContext } from "./TrainingManager";
 
 const Interaction = () => {
   const {
@@ -92,7 +93,7 @@ const Interaction = () => {
       <div className="interaction__exercise">
         {EXERCISE_NAME.map((name, idx) => (
           <div
-            className="exercise__name"
+            className={classNames("exercise__name", { pointer: modeName })}
             onClick={(e) => {
               modeName && handleExerciseName(e.target.innerHTML);
             }}
@@ -107,7 +108,7 @@ const Interaction = () => {
           <div className="num-keypad__row" key={idx}>
             {row.map((num, idx2) => (
               <div
-                className="row__num"
+                className={classNames("row__num", { pointer: num === "Enter" || modeSetNum || modeRepNum })}
                 onClick={(e) => {
                   if (e.target.innerHTML === "Delete") {
                     handleDelete();

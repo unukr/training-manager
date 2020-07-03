@@ -22,6 +22,8 @@
   align-items: center;
   background-color: rgb(140, 0, 0);
   font-weight: bold;
+  cursor: not-allowed;
+  box-shadow: 3px 3px 10px 0px black;
 }
 
 .interaction__num-keypad {
@@ -44,5 +46,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-start-end-radius: 10px;
+  cursor: not-allowed;
+  box-shadow: 3px 3px 10px 0px black;
+}
+
+.pointer {
+  cursor: pointer;
 }

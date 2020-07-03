@@ -1,0 +1,45 @@
+@import-normalize;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+
+* {
+  border-radius: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.manage-time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.local-storage-clear-btn {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(140, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 3px 3px 10px 0px black;
+}
+
+.inappropriate-size {
+  border-radius: 0px;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  background-color: dimgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 9px 6px 11px black;
+}

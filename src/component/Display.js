@@ -1,7 +1,7 @@
 import React from "react";
 import "./Display.css";
 import classNames from "classnames";
-import { useManageTimeContext } from "./ManageTime";
+import { useManageTimeContext } from "./TrainingManager";
 
 const Display = () => {
   const { exerciseName, setNum, repNum, modeName, modeSetNum, modeRepNum, duration, items } = useManageTimeContext();
@@ -11,7 +11,7 @@ const Display = () => {
         <div className="title__element">Exercise name</div>
         <div className="title__element">Set</div>
         <div className="title__element">Reps</div>
-        <div className="title__element">Duration of time</div>
+        <div className="title__element">Duration of time (s)</div>
       </div>
       <div className="display__border"></div>
       <div className="display__main">

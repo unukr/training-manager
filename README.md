@@ -1,68 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Training Manager
 
-## Available Scripts
+## 트레이닝 매니저란
 
-In the project directory, you can run:
+운동 중에 어떤 운동을 몇 세트 째 하고 있는지, 시간은 얼마나 걸렸는지 쉽게 파악하기 위해 만든 서비스입니다.
 
-### `yarn start`
+운동하며 일일히 메모하기가 번거로워서 무슨 운동을 몇 세트 째 하고 있고 몇 번 반복하였는지 최대한 적은 클릭으로 기록할 수 있게 만들었습니다.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 접속 방법
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- https://training-manager.netlify.app/
 
-### `yarn test`
+## 사용 방법
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![training_manager_gif_1](./assets/training_manager_gif_1.gif)
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1. 스크린의 길이를 768px 이하로 설정한다.
+2. 좌측의 네 개의 운동 항목 중 하나를 클릭 후 엔터 버튼을 누른다.
+3. 몇 번째 세트인지 입력 후 엔터를 누른다. (엔터를 누름과 동시에 시간이 흐른다.)
+4. 운동이 끝나고 몇 회를 하였는지 입력 후 엔터를 누른다. (엔터를 누름과 동시에 시간이 멈춘다.)
+5. 아래 Clear 버튼으로 기록을 모두 삭제할 수 있다.

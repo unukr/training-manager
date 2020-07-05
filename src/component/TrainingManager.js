@@ -90,7 +90,7 @@ const ManageTime = () => {
           </div>
         </div>
       )}
-      {width > 768 && <div className="inappropriate-size">Please decrease the width</div>}
+      {width > 768 && <div className="inappropriate-size">Please make your screen smaller!</div>}
     </ManageTimeContext.Provider>
   );
 };
